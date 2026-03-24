@@ -88,6 +88,9 @@ ol {
   overflow: auto;
   margin-top: 24px;
   gap: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .content__details {
@@ -115,13 +118,6 @@ ol {
   flex-direction: column;
   gap: 30px;
   padding-top: 2px
-}
-
-.content__list-container {
-  display: flex;
-  gap: 30px;
-  flex-direction: column;
-  position: relative;
 }
 
 .content__video-card {
